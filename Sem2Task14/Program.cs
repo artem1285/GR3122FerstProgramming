@@ -5,10 +5,11 @@
 //===================================== 
 
 Console.Write("Введите число: ");
-string? inputLineА = Console.ReadLine();
-int inputNumberA = int.Parse(inputLineA);
+string inputLineA = Console.ReadLine()??"";
 
-if (inputNumberA % 7 ==0 && inputNumberА % 7 ==0)
+int inputNumberA = int.Parse(inputLineA); 
+
+if (inputNumberA % 7 ==0 && inputNumberA % 23 ==0)
 {
     Console.Write("Число кратно одновременно и 7 и 23");
 }
@@ -18,6 +19,6 @@ else
 }
 
 //вариант Анатолия
-string? inputLineА = Console.ReadLine(); // считал счисло
-if (inputLineA != null) 
-Console.Write(((int.Parse(inputLineA) % 7 == 0) && (int.Parse(inputLineA)% 23 == 0)) ? ("Кратно"): ("Некратно"));
+// string? inputLineА = Console.ReadLine(); // считал счисло
+// if (inputLineA != null) 
+// Console.Write(((int.Parse(inputLineA) % 7 == 0) && (int.Parse(inputLineA)% 23 == 0)) ? ("Кратно"): ("Некратно"));

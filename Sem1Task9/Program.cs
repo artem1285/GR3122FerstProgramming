@@ -47,3 +47,5 @@ void charVariant()
 // MyVariant();
 
 Evgeniy();
+charVariant();
+MyVariant();
