@@ -40,7 +40,8 @@ string outDayofWeek = string.Empty;
  //       default: outDayofWeek  = "Такого дня нет"; break;
  //   }
 
-outDayofWeek = System.Globalization.CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(inputDayofWeek));
+// потом раскоментировать
+//outDayofWeek = System.Globalization.CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(inputDayofWeek));
 
 
 Console.WriteLine(outDayofWeek);

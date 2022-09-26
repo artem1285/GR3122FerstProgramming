@@ -45,15 +45,15 @@ Print1DArray(Fibonacci(inputNumber));
 
 // метод препод 
 // Метод считывания данных пользователя
-int ReadData(string line)
-{
-    // Выводим сообщение
-    Console.Write(line);
-    // Считываем число
-    int number = int.Parse(Console.ReadLine() ?? "0");
-    // Возвращаем значение
-    return number;
-}
+// int ReadData(string line)
+// {
+//     // Выводим сообщение
+//     Console.Write(line);
+//     // Считываем число
+//     int number = int.Parse(Console.ReadLine() ?? "0");
+//     // Возвращаем значение
+//     return number;
+// }
 // Метод, принимает строку, выводит в консоль
 void PrintResult(string prefix, string line)
 {

@@ -29,4 +29,5 @@ string DecToBin(int number)
 
     return binNumber; // коргда вычилении ничего не остается, возвращаем результат 
 }
+int inputNumber = ReadData("Введите число: ");
  PrintResult("Исходное число в бинарном формате:", DecToBin(inputNumber)); // сначала указать сообщение и через , значение переменной
